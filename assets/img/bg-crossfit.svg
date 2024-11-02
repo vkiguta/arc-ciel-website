@@ -1,0 +1,13 @@
+<svg width="1038" height="625" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <g>
+  <title>Layer 1</title>
+  <path d="m751.819,606.294l-1.251,-2.758l-40.266,18.264l1.251,2.758l40.266,-18.264z" fill="#0e8281" id="svg_1"/>
+  <rect x="1037.51" y="158.562" width="5.25279" height="76.6908" transform="rotate(124.466 1037.51 158.562)" fill="black" id="svg_2"/>
+  <path d="m791.746,50.8363l-22.844,-36.6104l43.128,-1.4781l-20.284,38.0885z" fill="#FCBD56" id="svg_3"/>
+  <circle r="4.5" transform="matrix(0.974224 0.225582 0.225582 -0.974224 906.071 590.395)" fill="black" id="svg_6"/>
+  <circle r="14.5" transform="matrix(0.974224 0.225582 0.225582 -0.974224 548.068 112.908)" fill="black" id="svg_7"/>
+  <circle cx="50.7444" cy="486.519" r="28.369" transform="rotate(76.2009 50.7444 486.519)" stroke="#FCBD56" stroke-width="5" id="svg_8"/>
+  <path transform="rotate(-105.027 936.37 523.982)" stroke-width="0" fill="#000" d="m910.2046,546.85562l0,-45.74626l52.33085,45.74626l-52.33085,0z" id="svg_9" stroke="#fff"/>
+ </g>
+
+</svg>
