@@ -162,7 +162,7 @@ h6 {
     background-color: #0e8281; }
 
 .slogan {
-  text-align: center;
+  text-align:  center; 
   max-width: 560px;
   margin: 0 auto 40px;
   color: #ccc; }
@@ -292,7 +292,10 @@ header {
   min-height: 50px;
   position: relative;
   width: 100%;
-  z-index: 5; }
+  z-index: 5; 
+  padding-bottom:10px ;
+}
+  
 
 .nav-menu {
   width: 100%;
@@ -478,13 +481,18 @@ header:after {
   visibility: hidden; }
 
 .header-menu {
-  padding-bottom: 24px; }
+  padding-bottom: 5px; 
+  border-top: 1px solid #474747;
+}
+  
 
 .header-logo {
   text-align: center;
-  border-top: 1px solid #474747;
+  
   margin-top: 2px;
-  padding:10px;
+  padding:1px;
+  min-height: 100px;
+  min-width: 270px;
   
 }
 
@@ -799,7 +807,7 @@ textarea {
   input[type="password"]:focus,
   input[type="search"]:focus,
   textarea:focus {
-    border-color: #fcbd56; }
+    border-color: #e59d23; }
 
 textarea {
   padding-top: 10px;
@@ -952,7 +960,7 @@ textarea::placeholder {
   color: #fff; }
 
 #success_page h3 {
-  color: #fcbd56;
+  color: #e59d23;
   margin-bottom: 5px; }
 
 #message {
@@ -1366,7 +1374,7 @@ footer {
   text-transform: uppercase;
   width: 100%; }
   .crossfit-slide .title span {
-    color: #fcbd56; }
+    color: #e59d23; }
 .crossfit-slide p {
   max-width: 660px;
   margin: 8px auto 40px;
@@ -1908,7 +1916,7 @@ blockquote:before {
 
 /*-------------------- S-CONTACTS --------------------*/
 .s-contacts {
-  padding: 140px 0;
+  padding: 60px 0;
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -2190,7 +2198,7 @@ blockquote:before {
       padding-left: 2px; }
       .club-card-item .price-cover .date span {
         margin-left: -2px;
-        color: #fcbd56;
+        color: #e59d23;
         display: block;
         line-height: .9;
         font-size: 36px; }
@@ -2320,7 +2328,7 @@ blockquote:before {
     z-index: 1; }
     .crossfit-banner-right .text-bottom a {
       font-weight: 700;
-      color: #fcbd56;
+      color: #e59d23;
       position: relative; }
       .crossfit-banner-right .text-bottom a:before {
         content: '';
@@ -2329,7 +2337,7 @@ blockquote:before {
         bottom: -1px;
         left: 0;
         transition: .3s ease;
-        background-color: #fcbd56;
+        background-color: #e59d23;
         height: 2px;
         width: 100%; }
       .crossfit-banner-right .text-bottom a:hover {
@@ -2989,7 +2997,7 @@ blockquote:before {
       border: 2px solid #fff;
       background-color: #fff; }
       .s-counter .subscribe-form .inp-form:focus {
-        border-color: #fcbd56; }
+        border-color: #e59d23; }
 
 #clockdiv {
   display: flex;
@@ -3584,7 +3592,7 @@ blockquote:before {
     height: 510px; } }
 @media (max-width: 1366px) {
   .logo img {
-    max-width: 96px; }
+    max-width: 270px; }
 
   .s-crossfit-slider .slider-navigation {
     bottom: 28%; }
@@ -3735,7 +3743,7 @@ blockquote:before {
     height: 400px; }
 
   .logo img {
-    max-width: 86px; }
+    max-width: 270px; }
 
   .crossfit-slide .container {
     min-height: 560px; }
@@ -4224,7 +4232,7 @@ blockquote:before {
     font-size: 44px; }
 
   .logo img {
-    max-width: 76px; }
+    max-width: 200px; }
 
   .crossfit-slide .title {
     font-size: 34px; }
@@ -4645,3 +4653,77 @@ blockquote:before {
 
   .widget-instagram li img {
     height: 100px; } }
+
+
+
+    #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

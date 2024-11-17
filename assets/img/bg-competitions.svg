@@ -38,8 +38,8 @@
 <circle r="5.41137" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 225.404 434.487)" fill="#C0C0C0"/>
 <circle r="5.41137" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 240.709 419.181)" fill="#C0C0C0"/>
 </g>
-<circle cx="251.5" cy="103.5" r="43" stroke="#FCBD56" stroke-width="11"/>
+<circle cx="251.5" cy="103.5" r="43" stroke="#e59d23" stroke-width="11"/>
 <path d="M1265.99 77.1588L1239.99 51.1562L1275.51 41.6385L1265.99 77.1588Z" fill="#0e8281"/>
-<path d="M1730.25 387.25L1712.5 418L1694.75 387.25L1730.25 387.25Z" stroke="#FCBD56" stroke-width="6"/>
+<path d="M1730.25 387.25L1712.5 418L1694.75 387.25L1730.25 387.25Z" stroke="#e59d23" stroke-width="6"/>
 <rect x="1617.62" y="177.975" width="53" height="51" transform="rotate(-28.0802 1617.62 177.975)" stroke="#0e8281" stroke-width="7"/>
 </svg>
