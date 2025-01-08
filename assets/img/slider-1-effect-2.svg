@@ -4,14 +4,14 @@
 <rect width="1920" height="716" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
-<rect width="2.40275" height="35.0801" transform="matrix(-0.534045 -0.845456 -0.845456 0.534045 1044.47 636.649)" fill="#e59d23"/>
+<rect width="2.40275" height="35.0801" transform="matrix(-0.534045 -0.845456 -0.845456 0.534045 1044.47 636.649)" fill="#FCBD56"/>
 <g filter="url(#filter0_d)">
-<path d="M569.413 112.837L546.162 89.5867L577.923 81.0765L569.413 112.837Z" fill="#e59d23"/>
+<path d="M569.413 112.837L546.162 89.5867L577.923 81.0765L569.413 112.837Z" fill="#FCBD56"/>
 </g>
-<circle cx="91.7074" cy="218.974" r="27.0381" transform="rotate(-166.963 91.7074 218.974)" stroke="#e59d23" stroke-width="3"/>
-<path d="M285.628 643.047L292.83 654.589L279.234 655.055L285.628 643.047Z" fill="#e59d23"/>
-<circle cx="1763.19" cy="162.961" r="26.9591" transform="rotate(-103.799 1763.19 162.961)" stroke="#e59d23" stroke-width="3"/>
-<path d="M1858.06 444.343L1892.16 454.25L1866.53 478.826L1858.06 444.343Z" stroke="#e59d23" stroke-width="6"/>
+<circle cx="91.7074" cy="218.974" r="27.0381" transform="rotate(-166.963 91.7074 218.974)" stroke="#FCBD56" stroke-width="3"/>
+<path d="M285.628 643.047L292.83 654.589L279.234 655.055L285.628 643.047Z" fill="#FCBD56"/>
+<circle cx="1763.19" cy="162.961" r="26.9591" transform="rotate(-103.799 1763.19 162.961)" stroke="#FCBD56" stroke-width="3"/>
+<path d="M1858.06 444.343L1892.16 454.25L1866.53 478.826L1858.06 444.343Z" stroke="#FCBD56" stroke-width="6"/>
 <circle r="2.5" transform="matrix(1 0 0 -1 1344.5 57.4999)" fill="#DADADA"/>
 <circle r="2.5" transform="matrix(1 0 0 -1 1354.5 57.4999)" fill="#DADADA"/>
 <circle r="2.5" transform="matrix(1 0 0 -1 1364.5 57.4999)" fill="#DADADA"/>

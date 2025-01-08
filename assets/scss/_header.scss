@@ -332,14 +332,14 @@ header{
 }
 
 .header-menu{
-	padding-bottom: 8px;
+	padding-bottom: 10px;
+	
 }
 .header-logo{
 	text-align: center;
-	max-height: 150px;
-
+	max-height: 200px;
 	margin-top: 2px;
-
+	padding: 10px ;
 }
 
 /*-------------------- TOP PANEL --------------------*/
@@ -349,6 +349,8 @@ header{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		border-bottom: 1px solid $border_color;
+
 	}
 }
 .header-right,

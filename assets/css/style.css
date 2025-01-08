@@ -76,6 +76,7 @@ body {
   position: relative;
   overflow-x: hidden;
   color: #fff;
+  cursor: none;
   background-color: #202020;
   font-weight: 400; }
   @media (max-width: 1199px) {
@@ -103,9 +104,11 @@ img {
   max-width: 100%; }
 
 a {
+  cursor: none;
   color: #fff;
   text-decoration: none;
   transition: .25s ease-in; }
+  
   a:hover {
     color: #0e8281; }
 
@@ -162,8 +165,9 @@ h6 {
     background-color: #0e8281; }
 
 .slogan {
-  text-align:  center; 
+  text-align: left;
   max-width: 560px;
+  font-size: 15px;
   margin: 0 auto 40px;
   color: #ccc; }
 
@@ -193,7 +197,9 @@ h6 {
   visibility: hidden;
   opacity: 0; }
 
-/*------------------------- HEADER -------------------------*/
+
+
+
 /*-------------------- PRELOADER --------------------*/
 body {
   overflow: hidden; }
@@ -292,10 +298,7 @@ header {
   min-height: 50px;
   position: relative;
   width: 100%;
-  z-index: 5; 
-  padding-bottom:10px ;
-}
-  
+  z-index: 5; }
 
 .nav-menu {
   width: 100%;
@@ -481,18 +484,14 @@ header:after {
   visibility: hidden; }
 
 .header-menu {
-  padding-bottom: 5px; 
-  border-top: 1px solid #474747;
-}
-  
+  padding-bottom: 10px;
+  border-top: 1px solid #474747; }
 
 .header-logo {
   text-align: center;
   
   margin-top: 2px;
-  padding:1px;
-  min-height: 100px;
-  min-width: 270px;
+  padding:10px;
   
 }
 
@@ -807,7 +806,7 @@ textarea {
   input[type="password"]:focus,
   input[type="search"]:focus,
   textarea:focus {
-    border-color: #e59d23; }
+    border-color: #fcbd56; }
 
 textarea {
   padding-top: 10px;
@@ -960,7 +959,7 @@ textarea::placeholder {
   color: #fff; }
 
 #success_page h3 {
-  color: #e59d23;
+  color: #fcbd56;
   margin-bottom: 5px; }
 
 #message {
@@ -981,7 +980,7 @@ textarea::placeholder {
 /*-------------------------- FOOTER --------------------------*/
 /*--------------------- FOOTER ---------------------*/
 footer {
-  background-color: #000;
+  background-color: #272a31;
   padding-top: 55px;
   position: relative;
   z-index: 6; }
@@ -990,7 +989,8 @@ footer {
 
 .footer-item-logo .logo-footer {
   display: inline-block;
-  margin-bottom: 16px; }
+  margin-bottom: 5px;
+max-height: 100px; }
 .footer-item-logo p {
   margin-bottom: 34px;
   max-width: 200px;
@@ -1265,6 +1265,7 @@ footer {
     clip-path: polygon(100% 100%, 0 0, 0 100%); }
 
 .slider-navigation {
+  cursor: none !important;
   position: absolute;
   left: 50%;
   bottom: 31%;
@@ -1292,6 +1293,7 @@ footer {
       .slider-navigation .slick-dots li:hover button, .slider-navigation .slick-dots li.slick-active button {
         color: #0e8281; }
       .slider-navigation .slick-dots li button {
+        cursor: none !important;
         background-color: transparent;
         margin: 0;
         padding: 0;
@@ -1304,10 +1306,11 @@ footer {
         padding: 0 2px;
         transition: .25s ease-in; }
   .slider-navigation .slick-arrow {
+
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    cursor: pointer;
+    cursor: none;
     z-index: 1;
     display: flex; }
     .slider-navigation .slick-arrow:hover svg {
@@ -1374,7 +1377,7 @@ footer {
   text-transform: uppercase;
   width: 100%; }
   .crossfit-slide .title span {
-    color: #e59d23; }
+    color: #fcbd56; }
 .crossfit-slide p {
   max-width: 660px;
   margin: 8px auto 40px;
@@ -1916,7 +1919,7 @@ blockquote:before {
 
 /*-------------------- S-CONTACTS --------------------*/
 .s-contacts {
-  padding: 60px 0;
+  padding: 140px 0;
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -2198,7 +2201,7 @@ blockquote:before {
       padding-left: 2px; }
       .club-card-item .price-cover .date span {
         margin-left: -2px;
-        color: #e59d23;
+        color: #fcbd56;
         display: block;
         line-height: .9;
         font-size: 36px; }
@@ -2212,7 +2215,7 @@ blockquote:before {
       .club-card-item .list li:last-child {
         border-bottom: none; }
       .club-card-item .list li.item-excluded {
-        color: rgba(190, 190, 190, 0.66); }
+        color: rgba(230, 230, 230, 0.99); }
 
 .club-cards-lite .club-card-item {
   background-image: none;
@@ -2301,7 +2304,7 @@ blockquote:before {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../img/bg-crossfit.svg); }
+    }
   .crossfit-banner-right .text-top {
     font-family: "Righteous", sans-serif;
     color: #000;
@@ -2328,7 +2331,7 @@ blockquote:before {
     z-index: 1; }
     .crossfit-banner-right .text-bottom a {
       font-weight: 700;
-      color: #e59d23;
+      color: #fcbd56;
       position: relative; }
       .crossfit-banner-right .text-bottom a:before {
         content: '';
@@ -2337,7 +2340,7 @@ blockquote:before {
         bottom: -1px;
         left: 0;
         transition: .3s ease;
-        background-color: #e59d23;
+        background-color: #fcbd56;
         height: 2px;
         width: 100%; }
       .crossfit-banner-right .text-bottom a:hover {
@@ -2997,7 +3000,7 @@ blockquote:before {
       border: 2px solid #fff;
       background-color: #fff; }
       .s-counter .subscribe-form .inp-form:focus {
-        border-color: #e59d23; }
+        border-color: #fcbd56; }
 
 #clockdiv {
   display: flex;
@@ -3592,7 +3595,7 @@ blockquote:before {
     height: 510px; } }
 @media (max-width: 1366px) {
   .logo img {
-    max-width: 270px; }
+    max-width: 200px; }
 
   .s-crossfit-slider .slider-navigation {
     bottom: 28%; }
@@ -3743,7 +3746,7 @@ blockquote:before {
     height: 400px; }
 
   .logo img {
-    max-width: 270px; }
+    max-width: 86px; }
 
   .crossfit-slide .container {
     min-height: 560px; }
@@ -4232,7 +4235,7 @@ blockquote:before {
     font-size: 44px; }
 
   .logo img {
-    max-width: 200px; }
+    max-width: 76px; }
 
   .crossfit-slide .title {
     font-size: 34px; }
@@ -4653,77 +4656,3 @@ blockquote:before {
 
   .widget-instagram li img {
     height: 100px; } }
-
-
-
-    #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-#loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #9370DB;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
-#loader:before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #BA55D3;
-    -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
-}
-#loader:after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #FF00FF;
-    -webkit-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite;
-}
-@-webkit-keyframes spin {
-    0%   {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-@keyframes spin {
-    0%   {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
